@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		010099 /* BagCheck.icon in Resources */ = {isa = PBXBuildFile; fileRef = 020099 /* BagCheck.icon */; };
 		010001 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020001 /* TemplateApp.swift */; };
 		010002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020002 /* ContentView.swift */; };
 		010003 /* NavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020003 /* NavigationCoordinator.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		020099 /* BagCheck.icon */ = {isa = PBXFileReference; lastKnownFileType = file; path = BagCheck.icon; sourceTree = "<group>"; };
 		000001 /* TemplateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemplateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		000002 /* TemplateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		000003 /* TemplateAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,6 +129,7 @@
 				040007 /* Services */,
 				040009 /* Features */,
 				040010 /* Localization */,
+				020099 /* BagCheck.icon */,
 				020010 /* Assets.xcassets */,
 			);
 			path = TemplateApp;
@@ -333,6 +336,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				010099 /* BagCheck.icon in Resources */,
 				010010 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -530,7 +534,7 @@
 		090003 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = BagCheck;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -559,7 +563,7 @@
 		090004 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = BagCheck;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

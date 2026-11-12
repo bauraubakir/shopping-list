@@ -1,0 +1,73 @@
+{
+  "color-space-for-untagged-svg-colors": "display-p3",
+  "fill": {
+    "solid": "extended-srgb:0.04706,0.05098,0.05490,1.00000"
+  },
+  "groups": [
+    {
+      "blend-mode": "normal",
+      "hidden": false,
+      "layers": [
+        {
+          "image-name": "04-purchase-check.svg",
+          "name": "purchase-check",
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "image-name": "03-bag-body.svg",
+          "name": "bag-body",
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "image-name": "02-handle-opening.svg",
+          "name": "handle-opening",
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "image-name": "01-bag-handle.svg",
+          "name": "bag-handle",
+          "position": {
+            "scale": 1,
+            "translation-in-points": [
+              0,
+              0
+            ]
+          }
+        }
+      ],
+      "lighting": "individual",
+      "name": "bagcheck",
+      "position": {
+        "scale": 1,
+        "translation-in-points": [
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "supported-platforms": {
+    "circles": [
+      "watchOS"
+    ],
+    "squares": "shared"
+  }
+}
