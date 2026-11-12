@@ -1,0 +1,242 @@
+{
+  "mode": "icon-spec-authoring",
+  "layout": "delivery",
+  "spec": "/Users/baau/GitHub/shopping-list/assets/app-icon-variants/list-check/tmp/work/spec.json",
+  "work_spec": "tmp/work/spec.json",
+  "name": "ListCheck",
+  "canvas": 1024,
+  "target_platforms": [
+    "iOS"
+  ],
+  "deliverable_type": "icon-composer-package",
+  "source_reference": "",
+  "brief": "Список покупок: белый лист с двумя крупными строками и большой зелёной галочкой на графитовом фоне. Без текста и мелких деталей.",
+  "renderer": "@resvg/resvg-js",
+  "generated_files": [
+    "list-check.preview.svg",
+    "list-check.preview.png",
+    "list-check.svg",
+    "list-check.png",
+    "layers/01-background.svg",
+    "layers/02-list-sheet.svg",
+    "layers/03-list-lines.svg",
+    "layers/04-purchase-check.svg",
+    "ListCheck.icon/icon.json",
+    "ListCheck.icon/Assets/01-list-sheet.svg",
+    "ListCheck.icon/Assets/02-list-lines.svg",
+    "ListCheck.icon/Assets/03-purchase-check.svg",
+    "apple/iOS/Default.png",
+    "apple/iOS/Dark.png",
+    "apple/iOS/TintedLight.png",
+    "apple/iOS/TintedDark.png",
+    "apple/iOS/ClearLight.png",
+    "apple/iOS/ClearDark.png",
+    "tmp/README.md",
+    "tmp/reports/style-report.json",
+    "tmp/reports/package-verification.json",
+    "tmp/reports/reference-diff.png",
+    "tmp/reports/reference-overlay.png",
+    "tmp/reports/reference-side-by-side.png",
+    "tmp/reports/visual-review.json"
+  ],
+  "generated_directories": [
+    "ListCheck.icon/Assets",
+    "apple/iOS",
+    "tmp/reports",
+    "layers",
+    "ListCheck.icon",
+    "apple",
+    "tmp"
+  ],
+  "preview_svg": "list-check.preview.svg",
+  "preview_png": "list-check.preview.png",
+  "app_svg": "list-check.svg",
+  "app_png": "list-check.png",
+  "layers": [
+    "layers/01-background.svg",
+    "layers/02-list-sheet.svg",
+    "layers/03-list-lines.svg",
+    "layers/04-purchase-check.svg"
+  ],
+  "apple_adapter": {
+    "bundle": "ListCheck.icon",
+    "exports": {
+      "status": "generated",
+      "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+      "scale": 1,
+      "platforms": [
+        "iOS"
+      ],
+      "profiles": [
+        {
+          "platform": "iOS",
+          "width": 1024,
+          "height": 1024,
+          "renditions": [
+            "Default",
+            "Dark",
+            "TintedLight",
+            "TintedDark",
+            "ClearLight",
+            "ClearDark"
+          ]
+        }
+      ],
+      "files": [
+        "apple/iOS/Default.png",
+        "apple/iOS/Dark.png",
+        "apple/iOS/TintedLight.png",
+        "apple/iOS/TintedDark.png",
+        "apple/iOS/ClearLight.png",
+        "apple/iOS/ClearDark.png"
+      ]
+    }
+  },
+  "icon_composer_bundle": "ListCheck.icon",
+  "apple_exports": {
+    "status": "generated",
+    "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+    "scale": 1,
+    "platforms": [
+      "iOS"
+    ],
+    "profiles": [
+      {
+        "platform": "iOS",
+        "width": 1024,
+        "height": 1024,
+        "renditions": [
+          "Default",
+          "Dark",
+          "TintedLight",
+          "TintedDark",
+          "ClearLight",
+          "ClearDark"
+        ]
+      }
+    ],
+    "files": [
+      "apple/iOS/Default.png",
+      "apple/iOS/Dark.png",
+      "apple/iOS/TintedLight.png",
+      "apple/iOS/TintedDark.png",
+      "apple/iOS/ClearLight.png",
+      "apple/iOS/ClearDark.png"
+    ]
+  },
+  "icon_composer_asset_format": "svg",
+  "icon_composer_assets": [
+    "ListCheck.icon/Assets/01-list-sheet.svg",
+    "ListCheck.icon/Assets/02-list-lines.svg",
+    "ListCheck.icon/Assets/03-purchase-check.svg"
+  ],
+  "icon_composer_group_settings": {
+    "blend-mode": "normal",
+    "hidden": false,
+    "layers": [
+      {
+        "image-name": "03-purchase-check.svg",
+        "name": "purchase-check",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "02-list-lines.svg",
+        "name": "list-lines",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "01-list-sheet.svg",
+        "name": "list-sheet",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "lighting": "individual",
+    "name": "listcheck",
+    "position": {
+      "scale": 1,
+      "translation-in-points": [
+        0,
+        0
+      ]
+    }
+  },
+  "icon_composer_json_layer_order": "front-to-back",
+  "icon_composer_json_assets": [
+    "ListCheck.icon/Assets/03-purchase-check.svg",
+    "ListCheck.icon/Assets/02-list-lines.svg",
+    "ListCheck.icon/Assets/01-list-sheet.svg"
+  ],
+  "preview_background_layers": [
+    {
+      "layer": "background",
+      "source_layer": "layers/01-background.svg",
+      "role": "preview-only-simple-fill"
+    }
+  ],
+  "icon_composer_layer_decisions": [
+    {
+      "layer": "list-sheet",
+      "asset": "ListCheck.icon/Assets/01-list-sheet.svg",
+      "source_layer": "layers/02-list-sheet.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "list-lines",
+      "asset": "ListCheck.icon/Assets/02-list-lines.svg",
+      "source_layer": "layers/03-list-lines.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "purchase-check",
+      "asset": "ListCheck.icon/Assets/03-purchase-check.svg",
+      "source_layer": "layers/04-purchase-check.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    }
+  ],
+  "background_mode": "spec",
+  "icon_composer_fill": {
+    "solid": "extended-srgb:0.04706,0.05098,0.05490,1.00000"
+  },
+  "semantic_review": {
+    "status": "exact-enough",
+    "identity_risk": "low",
+    "basis": "авторская композиция по семантическому дизайну",
+    "route": "semantic-svg",
+    "notes": "Прямое семантическое векторное авторство списка покупок"
+  },
+  "warnings": [],
+  "claims": [
+    "spec-driven reusable cross-platform icon source package",
+    "semantic source layers retained",
+    "rounded preview PNG rendered by @resvg/resvg-js",
+    "unrounded app/source canvas outputs retained separately from preview masking",
+    "Icon Composer SVG imports contain no text, image, filter, clipPath, mask, foreignObject, script, external href, or full-canvas rounded mask elements"
+  ]
+}

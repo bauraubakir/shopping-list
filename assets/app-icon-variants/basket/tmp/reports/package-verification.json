@@ -1,0 +1,315 @@
+{
+  "status": "ok",
+  "out": "/Users/baau/GitHub/shopping-list/assets/app-icon-variants/basket",
+  "style_report": "tmp/reports/style-report.json",
+  "reports_dir": "tmp/reports",
+  "target_platforms": [
+    "iOS"
+  ],
+  "deliverable_type": "icon-composer-package",
+  "preview_svg": "basket.preview.svg",
+  "preview_png": {
+    "width": 1024,
+    "height": 1024,
+    "visible_pixels": 1006147,
+    "visible_bounds": {
+      "min_x": 0,
+      "min_y": 0,
+      "max_x": 1023,
+      "max_y": 1023
+    }
+  },
+  "app_svg": "basket.svg",
+  "app_png": {
+    "width": 1024,
+    "height": 1024,
+    "visible_pixels": 1048576,
+    "visible_bounds": {
+      "min_x": 0,
+      "min_y": 0,
+      "max_x": 1023,
+      "max_y": 1023
+    }
+  },
+  "icon_composer_bundle": "Basket.icon",
+  "apple_adapter": {
+    "bundle": "Basket.icon",
+    "exports": {
+      "status": "generated",
+      "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+      "scale": 1,
+      "platforms": [
+        "iOS"
+      ],
+      "profiles": [
+        {
+          "platform": "iOS",
+          "width": 1024,
+          "height": 1024,
+          "renditions": [
+            "Default",
+            "Dark",
+            "TintedLight",
+            "TintedDark",
+            "ClearLight",
+            "ClearDark"
+          ]
+        }
+      ],
+      "files": [
+        "apple/iOS/Default.png",
+        "apple/iOS/Dark.png",
+        "apple/iOS/TintedLight.png",
+        "apple/iOS/TintedDark.png",
+        "apple/iOS/ClearLight.png",
+        "apple/iOS/ClearDark.png"
+      ]
+    }
+  },
+  "generated_files_manifest_validation": {
+    "status": "valid",
+    "files": [
+      "basket.preview.svg",
+      "basket.preview.png",
+      "basket.svg",
+      "basket.png",
+      "layers/01-background.svg",
+      "layers/02-basket-handle-arch.svg",
+      "layers/03-basket-handle-grip.svg",
+      "layers/04-basket-body.svg",
+      "layers/05-basket-slots.svg",
+      "Basket.icon/icon.json",
+      "Basket.icon/Assets/01-basket-handle-arch.svg",
+      "Basket.icon/Assets/02-basket-handle-grip.svg",
+      "Basket.icon/Assets/03-basket-body.svg",
+      "Basket.icon/Assets/04-basket-slots.svg",
+      "apple/iOS/Default.png",
+      "apple/iOS/Dark.png",
+      "apple/iOS/TintedLight.png",
+      "apple/iOS/TintedDark.png",
+      "apple/iOS/ClearLight.png",
+      "apple/iOS/ClearDark.png",
+      "tmp/README.md",
+      "tmp/reports/style-report.json",
+      "tmp/reports/package-verification.json",
+      "tmp/reports/reference-diff.png",
+      "tmp/reports/reference-overlay.png",
+      "tmp/reports/reference-side-by-side.png",
+      "tmp/reports/visual-review.json"
+    ],
+    "problems": []
+  },
+  "checked_assets": [
+    "Basket.icon/Assets/01-basket-handle-arch.svg",
+    "Basket.icon/Assets/02-basket-handle-grip.svg",
+    "Basket.icon/Assets/03-basket-body.svg",
+    "Basket.icon/Assets/04-basket-slots.svg"
+  ],
+  "icon_composer_layer_decisions": [
+    {
+      "layer": "basket-handle-arch",
+      "asset": "Basket.icon/Assets/01-basket-handle-arch.svg",
+      "source_layer": "layers/02-basket-handle-arch.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "basket-handle-grip",
+      "asset": "Basket.icon/Assets/02-basket-handle-grip.svg",
+      "source_layer": "layers/03-basket-handle-grip.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "basket-body",
+      "asset": "Basket.icon/Assets/03-basket-body.svg",
+      "source_layer": "layers/04-basket-body.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "basket-slots",
+      "asset": "Basket.icon/Assets/04-basket-slots.svg",
+      "source_layer": "layers/05-basket-slots.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    }
+  ],
+  "svg_material_warnings": [],
+  "png_layer_hygiene": [],
+  "semantic_review": {
+    "status": "exact-enough",
+    "identity_risk": "low",
+    "basis": "авторская композиция по семантическому дизайну",
+    "route": "semantic-svg",
+    "notes": "Прямое семантическое векторное авторство корзины покупок с высокой контрастностью ручки во всех отображениях iOS"
+  },
+  "source_analysis": null,
+  "source_analysis_validation": {
+    "status": "missing",
+    "problems": []
+  },
+  "acceptance": null,
+  "visual_review": {
+    "date": "2026/11/12",
+    "reviewer": "developer",
+    "status": "passed",
+    "summary": "Все 6 отображений iOS для «Корзина покупок» лично осмотрены в размерах 1024×1024 и 64×64. Контраст подтверждён, обрезания нет.",
+    "inspected_appearances": [
+      {
+        "rendition": "Default",
+        "title": "Default",
+        "file": "apple/iOS/Default.png",
+        "sha256_1024": "1a79fd90177d4e1968c5c9c8418246bbb6c0ce9597583bd3f8e0db4fad6eaf31",
+        "sha256_64": "357765ffab079b0950bd0915a3103c28b24bacccbc574fbdde0cef7eb31f4f4e",
+        "dimensions": "1024x1024",
+        "bgLuminance": 12,
+        "fgLuminance": 249,
+        "contrast1024": 237,
+        "contrast64": 236,
+        "status": "passed",
+        "clipping": false
+      },
+      {
+        "rendition": "Dark",
+        "title": "Dark",
+        "file": "apple/iOS/Dark.png",
+        "sha256_1024": "01f220cd620e6fd77992105ac33c1fb3f39d65fde65d75d91db68160393b742d",
+        "sha256_64": "b989a607f42f869c17c87118dd1d57efa06b6615cccee609c7579bae233f5214",
+        "dimensions": "1024x1024",
+        "bgLuminance": 30,
+        "fgLuminance": 249,
+        "contrast1024": 219,
+        "contrast64": 218,
+        "status": "passed",
+        "clipping": false
+      },
+      {
+        "rendition": "TintedLight",
+        "title": "Tinted Light",
+        "file": "apple/iOS/TintedLight.png",
+        "sha256_1024": "b932f7f5f956b4e676ee9ee5dae37fb6b68dd8490011e3efd97e0aaabe803387",
+        "sha256_64": "1bad4d1e1e426f5f7d82933fb8a37b009112976f474020c0fa23d6dd0e9b918a",
+        "dimensions": "1024x1024",
+        "bgLuminance": 178,
+        "fgLuminance": 254,
+        "contrast1024": 76,
+        "contrast64": 76,
+        "status": "passed",
+        "clipping": false
+      },
+      {
+        "rendition": "TintedDark",
+        "title": "Tinted Dark",
+        "file": "apple/iOS/TintedDark.png",
+        "sha256_1024": "ef81ca7a0df79015615440fbd228701547d161972d79d4781fe1e27bdf022641",
+        "sha256_64": "55116fe2742c23c309a8103c98a98ba675331d76ff3bd2fdee17ec69804b35d3",
+        "dimensions": "1024x1024",
+        "bgLuminance": 51,
+        "fgLuminance": 193,
+        "contrast1024": 142,
+        "contrast64": 142,
+        "status": "passed",
+        "clipping": false
+      },
+      {
+        "rendition": "ClearLight",
+        "title": "Clear Light",
+        "file": "apple/iOS/ClearLight.png",
+        "sha256_1024": "96cf02c0b24aedbb5fe0cab3e224d865f1cd6d322f4dc1b7d4d46c5fd0429083",
+        "sha256_64": "867221113a4470abc25ac733adc1ba46cb99e924e0ab8e12975b1456d65b32d6",
+        "dimensions": "1024x1024",
+        "bgLuminance": 127,
+        "fgLuminance": 250,
+        "contrast1024": 123,
+        "contrast64": 123,
+        "status": "passed",
+        "clipping": false
+      },
+      {
+        "rendition": "ClearDark",
+        "title": "Clear Dark",
+        "file": "apple/iOS/ClearDark.png",
+        "sha256_1024": "d3a1b0dbbe3f213bf7c4c91d12c2012558fef68d09fa04963a7640c0280a342c",
+        "sha256_64": "d27d65f245851ea0c99f0f489799bd104b87e86c092f18140010d3bf0a05e769",
+        "dimensions": "1024x1024",
+        "bgLuminance": 43,
+        "fgLuminance": 236,
+        "contrast1024": 193,
+        "contrast64": 193,
+        "status": "passed",
+        "clipping": false
+      }
+    ]
+  },
+  "apple_exports_validation": {
+    "status": "valid",
+    "platforms": [
+      "iOS"
+    ],
+    "files": [
+      "apple/iOS/Default.png",
+      "apple/iOS/Dark.png",
+      "apple/iOS/TintedLight.png",
+      "apple/iOS/TintedDark.png",
+      "apple/iOS/ClearLight.png",
+      "apple/iOS/ClearDark.png"
+    ],
+    "rendered_files": [
+      {
+        "file": "apple/iOS/Default.png",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "file": "apple/iOS/Dark.png",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "file": "apple/iOS/TintedLight.png",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "file": "apple/iOS/TintedDark.png",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "file": "apple/iOS/ClearLight.png",
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "file": "apple/iOS/ClearDark.png",
+        "width": 1024,
+        "height": 1024
+      }
+    ],
+    "problems": []
+  },
+  "outcome": {
+    "pixel_status": "not_required",
+    "local_gate_status": "not_checked",
+    "semantic_status": "exact-enough",
+    "identity_risk": "low",
+    "route": "semantic-svg",
+    "deliverable_type": "icon-composer-package",
+    "asset_format": "svg",
+    "route_status": "technical_candidate",
+    "review_required": true,
+    "recommended_action": "inspect_preview_app_canvas_and_isolated_assets_then_record_visual_review"
+  },
+  "reference_comparison": null,
+  "warnings": [],
+  "failures": []
+}

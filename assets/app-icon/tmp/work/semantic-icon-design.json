@@ -1,0 +1,105 @@
+{
+  "version": "semantic-icon-design/v0.1",
+  "route": "direct-authored-package",
+  "app_context": {
+    "app_name": "Список покупок",
+    "category": "iOS shopping list",
+    "job_to_be_done": "Составить список товаров и отмечать купленные позиции",
+    "tone": "спокойный, ясный, современный"
+  },
+  "style": {
+    "direction": "black-stage-mark",
+    "svg_convertibility": "high",
+    "style_notes": "Плоское графитовое поле, белый пакет и одна зелёная галочка из палитры приложения. Без имитации материалов."
+  },
+  "icon_intent": {
+    "metaphor": "пакет для покупок с отметкой выполненного",
+    "small_size_readability": "Пакет, ручка и галочка должны отчётливо читаться в превью 64×64",
+    "must_feel_like": ["понятный", "собранный", "дружелюбный"],
+    "must_not_feel_like": ["корзина без ручки", "замок", "объёмный рендер"]
+  },
+  "layering_policy": {
+    "negative_space_strategy": "overlay-fill-layer",
+    "cutouts_are_layers": true,
+    "description": "Просвет ручки — отдельная непрозрачная графитовая фигура над белой ручкой. Корпус располагается поверх нижних концов ручки. Без масок и прозрачных отверстий."
+  },
+  "canvas": {
+    "size": 1024,
+    "composition_anchor": "center",
+    "subject_scale": { "width_pct": [0.48, 0.50], "height_pct": [0.56, 0.58] },
+    "safe_area": { "x": [250, 774], "y": [200, 800] },
+    "alignment": "centered"
+  },
+  "background": {
+    "type": "solid",
+    "color": "#0C0D0E",
+    "gradient_stops": [],
+    "gradient_policy": { "applies": false, "reason": "Ровный графитовый фон Theme.Colors.background для тёмной темы" },
+    "composer_fill_target": { "solid": "extended-srgb:0.047059 0.050980 0.054902 1" }
+  },
+  "layers": [
+    {
+      "id": "bag-handle",
+      "order": 1,
+      "role": "внешний силуэт ручки пакета",
+      "format_target": "svg",
+      "shape_model": "единый скруглённый заполненный контур",
+      "description": "Белая симметричная арка с вертикальными ножками. Внешние границы x 340–684, y 210–470. Вершина по центру, ножки уходят под корпус.",
+      "fill": "#FFFFFF",
+      "bounds": { "x": [340, 684], "y": [210, 470] },
+      "geometry_constraints": ["непрозрачная заливка", "гладкие симметричные кривые", "без обводки", "без теней"],
+      "must_preserve": ["толстая узнаваемая ручка", "нижние концы перекрыты корпусом"],
+      "must_not_add": ["отверстие", "маска", "блик"]
+    },
+    {
+      "id": "handle-opening",
+      "order": 2,
+      "role": "непрозрачная накладка, формирующая просвет ручки",
+      "format_target": "svg",
+      "shape_model": "заполненная закруглённая арка",
+      "description": "Графитовая накладка внутри ручки с границами x 410–614, y 280–470. Её нижняя часть перекрывается корпусом. Сохраняет равномерную толщину ручки около 70 единиц.",
+      "fill": "#0C0D0E",
+      "bounds": { "x": [410, 614], "y": [280, 470] },
+      "geometry_constraints": ["непрозрачная заливка", "чистый контур", "отдельный верхний слой", "без mask", "без clipPath", "без альфа-вырезов"],
+      "must_preserve": ["отчётливый просвет ручки", "цвет совпадает с фоном"],
+      "must_not_add": ["настоящее отверстие", "тень углубления"]
+    },
+    {
+      "id": "bag-body",
+      "order": 3,
+      "role": "корпус пакета",
+      "format_target": "svg",
+      "shape_model": "один заполненный контур с мягко скруглёнными углами",
+      "description": "Белый корпус x 260–764, y 390–790. Широкая ровная верхняя кромка, слегка сужающиеся книзу боковые стороны и скруглённые нижние углы. Перекрывает концы ручки и накладки.",
+      "fill": "#FFFFFF",
+      "bounds": { "x": [260, 764], "y": [390, 790] },
+      "geometry_constraints": ["непрозрачная заливка", "симметрия по вертикальной оси", "чистые гладкие контуры", "без обводки", "без теней"],
+      "must_preserve": ["силуэт пакета", "пространство для крупной галочки"],
+      "must_not_add": ["складки", "надписи", "текстуру", "псевдообъём"]
+    },
+    {
+      "id": "purchase-check",
+      "order": 4,
+      "role": "отметка купленного товара",
+      "format_target": "svg",
+      "shape_model": "единая заполненная галочка с закруглёнными концами",
+      "description": "Зелёная галочка на корпусе. Примерная осевая линия от (397, 586) через (478, 663) к (635, 508), толщина около 56 единиц. Границы остаются внутри белого корпуса.",
+      "fill": "#00C860",
+      "bounds": { "x": [369, 663], "y": [480, 691] },
+      "geometry_constraints": ["непрозрачная заливка", "один непрерывный контур", "закруглённые концы", "без SVG stroke", "без свечения"],
+      "must_preserve": ["характерная форма галочки", "видимый белый зазор до края пакета", "различимость при 64×64"],
+      "must_not_add": ["круг вокруг галочки", "мелкие детали", "тень"]
+    }
+  ],
+  "conversion_constraints": {
+    "target_layer_count": "4 foreground layers plus solid background",
+    "svg_first": true,
+    "allowed_svg_primitives": ["filled path", "rect", "circle", "ellipse", "polygon"],
+    "forbidden_in_svg_assets": ["text", "image", "filter", "clipPath", "mask", "stroke", "opacity", "shadow", "glow", "bevel", "blur", "boolean hole", "alpha cutout"],
+    "png_fallback_allowed_only_for": ["text-rendering", "embedded-raster", "dense-brand-geometry", "custom-gradient", "renderer-artifact", "strict-fidelity"]
+  },
+  "image_generation_constraints": {
+    "priority": "Прямой SVG-авторинг, без платной генерации",
+    "avoid": ["фотореализм", "тени", "свечение", "градиент", "рамка", "текст", "чужой товарный знак", "мелкие детали"]
+  }
+}

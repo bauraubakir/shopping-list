@@ -1,0 +1,267 @@
+{
+  "mode": "icon-spec-authoring",
+  "layout": "delivery",
+  "spec": "/Users/baau/GitHub/shopping-list/assets/app-icon-variants/bag-check/tmp/work/spec.json",
+  "work_spec": "tmp/work/spec.json",
+  "name": "BagCheck",
+  "canvas": 1024,
+  "target_platforms": [
+    "iOS"
+  ],
+  "deliverable_type": "icon-composer-package",
+  "source_reference": "assets/app-icon/app-icon.svg",
+  "brief": "Сохранить существующую композицию: белый пакет с зелёной галочкой на графитовом фоне.",
+  "renderer": "@resvg/resvg-js",
+  "generated_files": [
+    "bag-check.preview.svg",
+    "bag-check.preview.png",
+    "bag-check.svg",
+    "bag-check.png",
+    "layers/01-background.svg",
+    "layers/02-bag-handle.svg",
+    "layers/03-handle-opening.svg",
+    "layers/04-bag-body.svg",
+    "layers/05-purchase-check.svg",
+    "BagCheck.icon/icon.json",
+    "BagCheck.icon/Assets/01-bag-handle.svg",
+    "BagCheck.icon/Assets/02-handle-opening.svg",
+    "BagCheck.icon/Assets/03-bag-body.svg",
+    "BagCheck.icon/Assets/04-purchase-check.svg",
+    "apple/iOS/Default.png",
+    "apple/iOS/Dark.png",
+    "apple/iOS/TintedLight.png",
+    "apple/iOS/TintedDark.png",
+    "apple/iOS/ClearLight.png",
+    "apple/iOS/ClearDark.png",
+    "tmp/README.md",
+    "tmp/reports/style-report.json",
+    "tmp/reports/package-verification.json",
+    "tmp/reports/reference-diff.png",
+    "tmp/reports/reference-overlay.png",
+    "tmp/reports/reference-side-by-side.png",
+    "tmp/reports/visual-review.json"
+  ],
+  "generated_directories": [
+    "BagCheck.icon/Assets",
+    "apple/iOS",
+    "tmp/reports",
+    "layers",
+    "BagCheck.icon",
+    "apple",
+    "tmp"
+  ],
+  "preview_svg": "bag-check.preview.svg",
+  "preview_png": "bag-check.preview.png",
+  "app_svg": "bag-check.svg",
+  "app_png": "bag-check.png",
+  "layers": [
+    "layers/01-background.svg",
+    "layers/02-bag-handle.svg",
+    "layers/03-handle-opening.svg",
+    "layers/04-bag-body.svg",
+    "layers/05-purchase-check.svg"
+  ],
+  "apple_adapter": {
+    "bundle": "BagCheck.icon",
+    "exports": {
+      "status": "generated",
+      "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+      "scale": 1,
+      "platforms": [
+        "iOS"
+      ],
+      "profiles": [
+        {
+          "platform": "iOS",
+          "width": 1024,
+          "height": 1024,
+          "renditions": [
+            "Default",
+            "Dark",
+            "TintedLight",
+            "TintedDark",
+            "ClearLight",
+            "ClearDark"
+          ]
+        }
+      ],
+      "files": [
+        "apple/iOS/Default.png",
+        "apple/iOS/Dark.png",
+        "apple/iOS/TintedLight.png",
+        "apple/iOS/TintedDark.png",
+        "apple/iOS/ClearLight.png",
+        "apple/iOS/ClearDark.png"
+      ]
+    }
+  },
+  "icon_composer_bundle": "BagCheck.icon",
+  "apple_exports": {
+    "status": "generated",
+    "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+    "scale": 1,
+    "platforms": [
+      "iOS"
+    ],
+    "profiles": [
+      {
+        "platform": "iOS",
+        "width": 1024,
+        "height": 1024,
+        "renditions": [
+          "Default",
+          "Dark",
+          "TintedLight",
+          "TintedDark",
+          "ClearLight",
+          "ClearDark"
+        ]
+      }
+    ],
+    "files": [
+      "apple/iOS/Default.png",
+      "apple/iOS/Dark.png",
+      "apple/iOS/TintedLight.png",
+      "apple/iOS/TintedDark.png",
+      "apple/iOS/ClearLight.png",
+      "apple/iOS/ClearDark.png"
+    ]
+  },
+  "icon_composer_asset_format": "svg",
+  "icon_composer_assets": [
+    "BagCheck.icon/Assets/01-bag-handle.svg",
+    "BagCheck.icon/Assets/02-handle-opening.svg",
+    "BagCheck.icon/Assets/03-bag-body.svg",
+    "BagCheck.icon/Assets/04-purchase-check.svg"
+  ],
+  "icon_composer_group_settings": {
+    "blend-mode": "normal",
+    "hidden": false,
+    "layers": [
+      {
+        "image-name": "04-purchase-check.svg",
+        "name": "purchase-check",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "03-bag-body.svg",
+        "name": "bag-body",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "02-handle-opening.svg",
+        "name": "handle-opening",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "01-bag-handle.svg",
+        "name": "bag-handle",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "lighting": "individual",
+    "name": "bagcheck",
+    "position": {
+      "scale": 1,
+      "translation-in-points": [
+        0,
+        0
+      ]
+    }
+  },
+  "icon_composer_json_layer_order": "front-to-back",
+  "icon_composer_json_assets": [
+    "BagCheck.icon/Assets/04-purchase-check.svg",
+    "BagCheck.icon/Assets/03-bag-body.svg",
+    "BagCheck.icon/Assets/02-handle-opening.svg",
+    "BagCheck.icon/Assets/01-bag-handle.svg"
+  ],
+  "preview_background_layers": [
+    {
+      "layer": "background",
+      "source_layer": "layers/01-background.svg",
+      "role": "preview-only-simple-fill"
+    }
+  ],
+  "icon_composer_layer_decisions": [
+    {
+      "layer": "bag-handle",
+      "asset": "BagCheck.icon/Assets/01-bag-handle.svg",
+      "source_layer": "layers/02-bag-handle.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "handle-opening",
+      "asset": "BagCheck.icon/Assets/02-handle-opening.svg",
+      "source_layer": "layers/03-handle-opening.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "bag-body",
+      "asset": "BagCheck.icon/Assets/03-bag-body.svg",
+      "source_layer": "layers/04-bag-body.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "purchase-check",
+      "asset": "BagCheck.icon/Assets/04-purchase-check.svg",
+      "source_layer": "layers/05-purchase-check.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    }
+  ],
+  "background_mode": "spec",
+  "icon_composer_fill": {
+    "solid": "extended-srgb:0.04706,0.05098,0.05490,1.00000"
+  },
+  "semantic_review": {
+    "status": "exact-enough",
+    "identity_risk": "low",
+    "basis": "Геометрия скопирована из проектной спецификации assets/app-icon/tmp/work/spec.json.",
+    "route": "semantic-svg",
+    "notes": "Фон задан заливкой Icon Composer. Исходный app-icon.svg сохранён как bag-check.origin.svg. Ручка, её проём, тело и галочка остаются отдельными слоями."
+  },
+  "warnings": [],
+  "claims": [
+    "spec-driven reusable cross-platform icon source package",
+    "semantic source layers retained",
+    "rounded preview PNG rendered by @resvg/resvg-js",
+    "unrounded app/source canvas outputs retained separately from preview masking",
+    "Icon Composer SVG imports contain no text, image, filter, clipPath, mask, foreignObject, script, external href, or full-canvas rounded mask elements"
+  ]
+}

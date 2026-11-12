@@ -1,0 +1,7 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><clipPath id="listcheck-clip"><rect width="1024" height="1024" rx="224"/></clipPath></defs>
+<g clip-path="url(#listcheck-clip)"><rect width="1024" height="1024" fill="#0C0D0E"/>
+<rect x="270" y="190" width="484" height="644" rx="62" fill="#FFFFFF"/>
+<path d="M 365 307 H 659 Q 681 307 681 329 Q 681 351 659 351 H 365 Q 343 351 343 329 Q 343 307 365 307 Z M 365 407 H 606 Q 628 407 628 429 Q 628 451 606 451 H 365 Q 343 451 343 429 Q 343 407 365 407 Z" fill="#0C0D0E"/>
+<path d="M 389 632 Q 371 614 389 596 Q 407 578 425 596 L 474 645 L 627 538 Q 648 523 663 544 Q 678 565 657 580 L 487 719 Q 470 733 454 717 Z" fill="#00C860"/></g>
+</svg>

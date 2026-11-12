@@ -1,0 +1,65 @@
+{
+  "mode": "icon-spec-authoring",
+  "layout": "delivery",
+  "spec": "/Users/baau/GitHub/shopping-list/assets/app-icon/tmp/work/spec.json",
+  "work_spec": "tmp/work/spec.json",
+  "name": "AppIcon",
+  "canvas": 1024,
+  "target_platforms": [],
+  "deliverable_type": null,
+  "source_reference": "",
+  "brief": "Белый пакет с зелёной галочкой на графитовом фоне для приложения Список покупок",
+  "renderer": "@resvg/resvg-js",
+  "generated_files": [
+    "app-icon.preview.svg",
+    "app-icon.preview.png",
+    "app-icon.svg",
+    "app-icon.png",
+    "layers/01-background.svg",
+    "layers/02-bag-handle.svg",
+    "layers/03-handle-opening.svg",
+    "layers/04-bag-body.svg",
+    "layers/05-purchase-check.svg",
+    "tmp/README.md",
+    "tmp/reports/style-report.json",
+    "tmp/reports/package-verification.json",
+    "tmp/reports/reference-diff.png",
+    "tmp/reports/reference-overlay.png",
+    "tmp/reports/reference-side-by-side.png",
+    "tmp/reports/visual-review.json"
+  ],
+  "generated_directories": [
+    "tmp/reports",
+    "layers",
+    "tmp"
+  ],
+  "preview_svg": "app-icon.preview.svg",
+  "preview_png": "app-icon.preview.png",
+  "app_svg": "app-icon.svg",
+  "app_png": "app-icon.png",
+  "layers": [
+    "layers/01-background.svg",
+    "layers/02-bag-handle.svg",
+    "layers/03-handle-opening.svg",
+    "layers/04-bag-body.svg",
+    "layers/05-purchase-check.svg"
+  ],
+  "apple_adapter": null,
+  "preview_background_layers": [],
+  "icon_composer_layer_decisions": [],
+  "background_mode": "spec",
+  "semantic_review": {
+    "status": "exact-enough",
+    "identity_risk": "low",
+    "basis": "авторская композиция по семантическому дизайну",
+    "route": "semantic-svg",
+    "notes": "Чистая растровая и векторная семантика без платформенных эффектов"
+  },
+  "warnings": [],
+  "claims": [
+    "spec-driven reusable cross-platform icon source package",
+    "semantic source layers retained",
+    "rounded preview PNG rendered by @resvg/resvg-js",
+    "unrounded app/source canvas outputs retained separately from preview masking"
+  ]
+}

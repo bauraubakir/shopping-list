@@ -1,0 +1,267 @@
+{
+  "mode": "icon-spec-authoring",
+  "layout": "delivery",
+  "spec": "/Users/baau/GitHub/shopping-list/assets/app-icon-variants/basket/tmp/work/spec.json",
+  "work_spec": "tmp/work/spec.json",
+  "name": "Basket",
+  "canvas": 1024,
+  "target_platforms": [
+    "iOS"
+  ],
+  "deliverable_type": "icon-composer-package",
+  "source_reference": "",
+  "brief": "Корзина покупок: белая ручка-арка с зелёным хватом над белой трапециевидной корзиной с двумя широкими графитовыми прорезями на графитовом фоне.",
+  "renderer": "@resvg/resvg-js",
+  "generated_files": [
+    "basket.preview.svg",
+    "basket.preview.png",
+    "basket.svg",
+    "basket.png",
+    "layers/01-background.svg",
+    "layers/02-basket-handle-arch.svg",
+    "layers/03-basket-handle-grip.svg",
+    "layers/04-basket-body.svg",
+    "layers/05-basket-slots.svg",
+    "Basket.icon/icon.json",
+    "Basket.icon/Assets/01-basket-handle-arch.svg",
+    "Basket.icon/Assets/02-basket-handle-grip.svg",
+    "Basket.icon/Assets/03-basket-body.svg",
+    "Basket.icon/Assets/04-basket-slots.svg",
+    "apple/iOS/Default.png",
+    "apple/iOS/Dark.png",
+    "apple/iOS/TintedLight.png",
+    "apple/iOS/TintedDark.png",
+    "apple/iOS/ClearLight.png",
+    "apple/iOS/ClearDark.png",
+    "tmp/README.md",
+    "tmp/reports/style-report.json",
+    "tmp/reports/package-verification.json",
+    "tmp/reports/reference-diff.png",
+    "tmp/reports/reference-overlay.png",
+    "tmp/reports/reference-side-by-side.png",
+    "tmp/reports/visual-review.json"
+  ],
+  "generated_directories": [
+    "Basket.icon/Assets",
+    "apple/iOS",
+    "tmp/reports",
+    "layers",
+    "Basket.icon",
+    "apple",
+    "tmp"
+  ],
+  "preview_svg": "basket.preview.svg",
+  "preview_png": "basket.preview.png",
+  "app_svg": "basket.svg",
+  "app_png": "basket.png",
+  "layers": [
+    "layers/01-background.svg",
+    "layers/02-basket-handle-arch.svg",
+    "layers/03-basket-handle-grip.svg",
+    "layers/04-basket-body.svg",
+    "layers/05-basket-slots.svg"
+  ],
+  "apple_adapter": {
+    "bundle": "Basket.icon",
+    "exports": {
+      "status": "generated",
+      "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+      "scale": 1,
+      "platforms": [
+        "iOS"
+      ],
+      "profiles": [
+        {
+          "platform": "iOS",
+          "width": 1024,
+          "height": 1024,
+          "renditions": [
+            "Default",
+            "Dark",
+            "TintedLight",
+            "TintedDark",
+            "ClearLight",
+            "ClearDark"
+          ]
+        }
+      ],
+      "files": [
+        "apple/iOS/Default.png",
+        "apple/iOS/Dark.png",
+        "apple/iOS/TintedLight.png",
+        "apple/iOS/TintedDark.png",
+        "apple/iOS/ClearLight.png",
+        "apple/iOS/ClearDark.png"
+      ]
+    }
+  },
+  "icon_composer_bundle": "Basket.icon",
+  "apple_exports": {
+    "status": "generated",
+    "tool": "/Applications/Icon Composer.app/Contents/Executables/ictool",
+    "scale": 1,
+    "platforms": [
+      "iOS"
+    ],
+    "profiles": [
+      {
+        "platform": "iOS",
+        "width": 1024,
+        "height": 1024,
+        "renditions": [
+          "Default",
+          "Dark",
+          "TintedLight",
+          "TintedDark",
+          "ClearLight",
+          "ClearDark"
+        ]
+      }
+    ],
+    "files": [
+      "apple/iOS/Default.png",
+      "apple/iOS/Dark.png",
+      "apple/iOS/TintedLight.png",
+      "apple/iOS/TintedDark.png",
+      "apple/iOS/ClearLight.png",
+      "apple/iOS/ClearDark.png"
+    ]
+  },
+  "icon_composer_asset_format": "svg",
+  "icon_composer_assets": [
+    "Basket.icon/Assets/01-basket-handle-arch.svg",
+    "Basket.icon/Assets/02-basket-handle-grip.svg",
+    "Basket.icon/Assets/03-basket-body.svg",
+    "Basket.icon/Assets/04-basket-slots.svg"
+  ],
+  "icon_composer_group_settings": {
+    "blend-mode": "normal",
+    "hidden": false,
+    "layers": [
+      {
+        "image-name": "04-basket-slots.svg",
+        "name": "basket-slots",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "03-basket-body.svg",
+        "name": "basket-body",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "02-basket-handle-grip.svg",
+        "name": "basket-handle-grip",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      },
+      {
+        "image-name": "01-basket-handle-arch.svg",
+        "name": "basket-handle-arch",
+        "position": {
+          "scale": 1,
+          "translation-in-points": [
+            0,
+            0
+          ]
+        }
+      }
+    ],
+    "lighting": "individual",
+    "name": "basket",
+    "position": {
+      "scale": 1,
+      "translation-in-points": [
+        0,
+        0
+      ]
+    }
+  },
+  "icon_composer_json_layer_order": "front-to-back",
+  "icon_composer_json_assets": [
+    "Basket.icon/Assets/04-basket-slots.svg",
+    "Basket.icon/Assets/03-basket-body.svg",
+    "Basket.icon/Assets/02-basket-handle-grip.svg",
+    "Basket.icon/Assets/01-basket-handle-arch.svg"
+  ],
+  "preview_background_layers": [
+    {
+      "layer": "background",
+      "source_layer": "layers/01-background.svg",
+      "role": "preview-only-simple-fill"
+    }
+  ],
+  "icon_composer_layer_decisions": [
+    {
+      "layer": "basket-handle-arch",
+      "asset": "Basket.icon/Assets/01-basket-handle-arch.svg",
+      "source_layer": "layers/02-basket-handle-arch.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "basket-handle-grip",
+      "asset": "Basket.icon/Assets/02-basket-handle-grip.svg",
+      "source_layer": "layers/03-basket-handle-grip.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "basket-body",
+      "asset": "Basket.icon/Assets/03-basket-body.svg",
+      "source_layer": "layers/04-basket-body.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    },
+    {
+      "layer": "basket-slots",
+      "asset": "Basket.icon/Assets/04-basket-slots.svg",
+      "source_layer": "layers/05-basket-slots.svg",
+      "format": "svg",
+      "reason": "simple editable vector layer",
+      "editability": "imported as editable vector",
+      "text_handling": "not text"
+    }
+  ],
+  "background_mode": "spec",
+  "icon_composer_fill": {
+    "solid": "extended-srgb:0.04706,0.05098,0.05490,1.00000"
+  },
+  "semantic_review": {
+    "status": "exact-enough",
+    "identity_risk": "low",
+    "basis": "авторская композиция по семантическому дизайну",
+    "route": "semantic-svg",
+    "notes": "Прямое семантическое векторное авторство корзины покупок с высокой контрастностью ручки во всех отображениях iOS"
+  },
+  "warnings": [],
+  "claims": [
+    "spec-driven reusable cross-platform icon source package",
+    "semantic source layers retained",
+    "rounded preview PNG rendered by @resvg/resvg-js",
+    "unrounded app/source canvas outputs retained separately from preview masking",
+    "Icon Composer SVG imports contain no text, image, filter, clipPath, mask, foreignObject, script, external href, or full-canvas rounded mask elements"
+  ]
+}

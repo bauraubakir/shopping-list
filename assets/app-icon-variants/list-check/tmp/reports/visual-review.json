@@ -1,0 +1,92 @@
+{
+  "date": "2026/11/12",
+  "reviewer": "developer",
+  "status": "passed",
+  "summary": "Все 6 отображений iOS для «Список с галочкой» лично осмотрены в размерах 1024×1024 и 64×64. Контраст подтверждён, обрезания нет.",
+  "inspected_appearances": [
+    {
+      "rendition": "Default",
+      "title": "Default",
+      "file": "apple/iOS/Default.png",
+      "sha256_1024": "2e27c3af1a74a1ddc71e0003ab62a3d0401843467f76298c8668ea7c83f517fb",
+      "sha256_64": "99f5f1ada6bb78b28bb91649577b4aad5a81a96d5d1d106377bdb36224140fcc",
+      "dimensions": "1024x1024",
+      "bgLuminance": 12,
+      "fgLuminance": 239,
+      "contrast1024": 227,
+      "contrast64": 227,
+      "status": "passed",
+      "clipping": false
+    },
+    {
+      "rendition": "Dark",
+      "title": "Dark",
+      "file": "apple/iOS/Dark.png",
+      "sha256_1024": "2653316de02174df59cbc15ed92fa8ba267c201a5f0ab1cbd89ba20ed25a217a",
+      "sha256_64": "b3f323945d8821e58998d1e6ad609961fba66ea099dcd15401d240e7c3ce3b82",
+      "dimensions": "1024x1024",
+      "bgLuminance": 30,
+      "fgLuminance": 240,
+      "contrast1024": 210,
+      "contrast64": 210,
+      "status": "passed",
+      "clipping": false
+    },
+    {
+      "rendition": "TintedLight",
+      "title": "Tinted Light",
+      "file": "apple/iOS/TintedLight.png",
+      "sha256_1024": "1011466df7e1bfa6d84a94585dc2a18f201891b21fee23fba6a0d28acc99ab05",
+      "sha256_64": "bb551cd02d4e45720f60fc6b0815d092a121ccf27f840007a41dfed327d457c6",
+      "dimensions": "1024x1024",
+      "bgLuminance": 178,
+      "fgLuminance": 252,
+      "contrast1024": 74,
+      "contrast64": 75,
+      "status": "passed",
+      "clipping": false
+    },
+    {
+      "rendition": "TintedDark",
+      "title": "Tinted Dark",
+      "file": "apple/iOS/TintedDark.png",
+      "sha256_1024": "f3ef73ef512f8febfa8855ec89131754d567643079b776157069c7b53d4f6134",
+      "sha256_64": "46da199864aab8d1ee8ae710492ae50515b69c27b29a18273a800450b87c152f",
+      "dimensions": "1024x1024",
+      "bgLuminance": 51,
+      "fgLuminance": 187,
+      "contrast1024": 136,
+      "contrast64": 136,
+      "status": "passed",
+      "clipping": false
+    },
+    {
+      "rendition": "ClearLight",
+      "title": "Clear Light",
+      "file": "apple/iOS/ClearLight.png",
+      "sha256_1024": "fb5247a8ce66f6f3f7d02658ca04d206f138eb44dc4324e1104bd3940cc13c14",
+      "sha256_64": "05363b6a1da467a67225bfa8ddc99b07c57a6018c5820bf50da4029a2c5e91fd",
+      "dimensions": "1024x1024",
+      "bgLuminance": 127,
+      "fgLuminance": 245,
+      "contrast1024": 118,
+      "contrast64": 119,
+      "status": "passed",
+      "clipping": false
+    },
+    {
+      "rendition": "ClearDark",
+      "title": "Clear Dark",
+      "file": "apple/iOS/ClearDark.png",
+      "sha256_1024": "fb6b1eb8845f228154f40823777173dcd7db558af03af036bf3da559fbdd91b8",
+      "sha256_64": "e624305f9cba4e24688a9b96456544e2674e25724de6b8b07e80c2ad9b445a2b",
+      "dimensions": "1024x1024",
+      "bgLuminance": 43,
+      "fgLuminance": 228,
+      "contrast1024": 185,
+      "contrast64": 185,
+      "status": "passed",
+      "clipping": false
+    }
+  ]
+}
